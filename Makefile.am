@@ -435,6 +435,12 @@ src_libdrivers_la_SOURCES += \
 	src/hardware/kern-scale/protocol.c \
 	src/hardware/kern-scale/api.c
 endif
+if HW_KINGST_LA1010
+src_libdrivers_la_SOURCES += \
+	src/hardware/kingst-la1010/protocol.h \
+	src/hardware/kingst-la1010/protocol.c \
+	src/hardware/kingst-la1010/api.c
+endif
 if HW_KINGST_LA2016
 src_libdrivers_la_SOURCES += \
 	src/hardware/kingst-la2016/protocol.h \
